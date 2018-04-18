@@ -3,8 +3,10 @@ Creating a stack data-structure in Python.
 
 Stack --> LIFO: Last-in, first-out.
 
-Common uses: Web-browser back-button (stacks the URLs)
-
+Common uses: 
+    - Web-browser back-button (stacks the URLs)
+    
+    
 Functionality of a stack that I need to implement: 
 Key: ([_] = todo,  [/] = done)
 
