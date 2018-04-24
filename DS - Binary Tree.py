@@ -1,7 +1,8 @@
 # BinaryTree implementation
 # with a function that can find the depth of a node within a tree.
 
-# LESSON; When implementing recursion within a class method, make sure you refer to the function through the next object. e.g. use self.parent.recursive_function(), instead of self.recursive_function().
+# LESSON; When implementing recursion within a class method, make sure you refer to the function through the next object. 
+# e.g. use self.parent.recursive_function(), instead of self.recursive_function().
 
 
 
