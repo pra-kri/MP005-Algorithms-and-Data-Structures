@@ -17,7 +17,7 @@ def function_to_minimise(x, y):
     return z 
     
 
-# search space for x = {-100, 100}
+# search space for x = {-5, 5}, best for Himmelblau's Function
 
 
 def random_search(in_function, space_start = -5, space_end=5):
