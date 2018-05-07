@@ -1,5 +1,8 @@
 # Writing a K-Nearest Neighbours classifier function from scratch (using the reference mentioned below)
-# Reference: https://www.youtube.com/watch?v=GWHG3cS2PKc&index=16&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v
+# Used pythonprogramming.net's tutorials + guides for this.
+# References: 
+# https://www.youtube.com/watch?v=GWHG3cS2PKc&index=16&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v
+# https://pythonprogramming.net/machine-learning-tutorial-python-introduction/
 
 
 
