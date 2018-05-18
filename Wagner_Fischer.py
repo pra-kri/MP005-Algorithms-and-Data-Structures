@@ -7,7 +7,8 @@ A 'change' is defined by any of the following: a letter replacement, a letter de
 Possible uses for the algorithm:
     - DNA sequence similarity checking
     - spell-checking - to determine what the typo might actually mean
-    - 
+
+Reference: https://en.wikipedia.org/wiki/Edit_distance
 """
 
 import numpy as np
