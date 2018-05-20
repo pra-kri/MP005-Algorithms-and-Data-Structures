@@ -54,8 +54,11 @@ def Needleman_Wunsch(s1, s2):
                 temp_max = max(temp_list)
                 aaa[i,j] = temp_max
     
+    # score = the bottom right element of the matrix
+    final_score = aaa[-1, -1]
     
-    return aaa, aaa[-1,-1]
+    #returns both the np array and the score next to it. should probably remove the array for larger string comparisons....
+    return aaa, final_score
 
 
 print(Needleman_Wunsch('GATTACA','GCATGCU'))
