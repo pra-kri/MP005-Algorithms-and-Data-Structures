@@ -40,6 +40,7 @@ def Needleman_Wunsch(s1, s2):
                 insert_del1 = aaa[i-1, j] - 1
                 insert_del2 = aaa[i, j-1] - 1
                 
+                # inefficient to store the following intermediate variables, but leaving them in for clarity
                 temp_list = [match, insert_del1, insert_del2]
                 temp_max = max(temp_list)
                 
