@@ -7,6 +7,9 @@ Note that there is no 'bias' term in any of the neurons. Only have weighted inpu
 References:
 http://iamtrask.github.io/2015/07/12/basic-python-network/
 https://brilliant.org/wiki/backpropagation/
+
+
+EDIT (23/05/18) -> Covered the maths behind Backpropagation today, and it's heavily based on the chain rule. 
 """
 
 import numpy as np
@@ -119,11 +122,14 @@ NOTES:
 If W = Weight of a certain connection, 
    The bigger the input value, the more W gets changed in backpropagation.
    The bigger the error of the output, the more W gets changed in backprop.
-   The smaller the sum of the weighted inputs are to a neuron, the more W gets changed in backprop.
+   The smaller the sum of the weighted inputs are to a neuron, the more W gets changed in backprop. (this is represented by sigmoid(sum of weighted inputs)
+   
 
 > I havent aded any bias terms, but apparently one good way of thinking about them
   is that the bias term shifts the entire sigmoid function horizontally.
   That way, you're essentially 'delaying' or 'quickening' the activation of the neuron,
   as you ramp up the input.
+  If you've shifted the sigmoid function to the left, using your bias term,then it 'activates' quicker, with less input strength.
+  Whereas if you shift the sigmoid function to the right, then it takes more total input to activate it.
 
 """
